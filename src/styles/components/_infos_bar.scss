@@ -5,6 +5,7 @@
     background-color: variables.$textColor;
     display: flex;
     justify-content: space-between;
+    border-radius: 4px;
 
     &__infos {
         display: flex;

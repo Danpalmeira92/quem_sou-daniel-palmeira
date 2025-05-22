@@ -7,10 +7,16 @@
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    border-radius: 4px;
+    transition: background-color 0.3 ease;
 
     &--primary {
         color: variables.$textColor;
         background-color: variables.$purple;
+
+        &:hover {
+            background-color: darken($color: variables.$purple, $amount: 10);
+        }
     }
 
     @media (max-width: 640px) {
